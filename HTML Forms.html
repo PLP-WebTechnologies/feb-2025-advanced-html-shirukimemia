@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Assignment Page</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>My Roman Numeral List</h2>
+    <ol type="I">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Beautiful Scenery</h2>
+    <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg" 
+         alt="Mountain View" 
+         width="600">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Jane Doe</td><td>123 Main St</td><td>555-1234</td><td>jane@example.com</td></tr>
+            <tr><td>John Smith</td><td>456 Elm St</td><td>555-5678</td><td>john@example.com</td></tr>
+            <tr><td>Mary Johnson</td><td>789 Oak St</td><td>555-8765</td><td>mary@example.com</td></tr>
+            <tr><td>Chris Lee</td><td>321 Pine St</td><td>555-3456</td><td>chris@example.com</td></tr>
+            <tr><td>Alice Kim</td><td>654 Maple St</td><td>555-2345</td><td>alice@example.com</td></tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required minlength="6"><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label><br><br>
+
+        <label for="interests">Interests:</label><br>
+        <input type="checkbox" id="tech" name="interests" value="Tech">
+        <label for="tech">Tech</label>
+        <input type="checkbox" id="music" name="interests" value="Music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="sports" name="interests" value="Sports">
+        <label for="sports">Sports</label><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="kenya">Kenya</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Multimedia Elements -->
+    <h2>Watch and Listen</h2>
+    <video width="320" height="240" controls>
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video><br><br>
+
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>
